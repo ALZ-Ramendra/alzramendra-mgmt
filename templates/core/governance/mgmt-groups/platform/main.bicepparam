@@ -10,8 +10,8 @@ param parEnableTelemetry = true
 param platformConfig = {
   createOrUpdateManagementGroup: true
   managementGroupName: 'platform'
-  managementGroupParentId: 'alz'
-  managementGroupIntermediateRootName: 'alz'
+  managementGroupParentId: 'alz-ramendra'
+  managementGroupIntermediateRootName: 'alz-ramendra'
   managementGroupDisplayName: 'Platform'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []

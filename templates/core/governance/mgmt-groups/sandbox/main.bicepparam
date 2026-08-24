@@ -10,8 +10,8 @@ param parEnableTelemetry = true
 param sandboxConfig = {
   createOrUpdateManagementGroup: true
   managementGroupName: 'sandbox'
-  managementGroupParentId: 'alz'
-  managementGroupIntermediateRootName: 'alz'
+  managementGroupParentId: 'alz-ramendra'
+  managementGroupIntermediateRootName: 'alz-ramendra'
   managementGroupDisplayName: 'Sandbox'
   managementGroupDoNotEnforcePolicyAssignments: []
   managementGroupExcludedPolicyAssignments: []

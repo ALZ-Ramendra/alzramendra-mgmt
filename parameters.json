@@ -5,7 +5,7 @@
   "MANAGEMENT_GROUP_ID_PREFIX": "",
   "INTERMEDIATE_ROOT_MANAGEMENT_GROUP_ID": "alz-ramendra",
   "SUBSCRIPTION_ID_MANAGEMENT": "c5b193b6-fec1-4d2b-9167-f29b16b3d7f4",
-  "NETWORK_TYPE": "hubNetworking",
+  "NETWORK_TYPE": "vwanConnectivity",
   "LOCATION": "westus3",
   "LOCATION_PRIMARY": "westus3",
   "MANAGEMENT_GROUP_ID": "alz-ramendra",

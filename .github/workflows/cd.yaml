@@ -53,7 +53,7 @@ on:
 
 jobs:
   plan_and_apply:
-    uses: ALZ-Ramendra/alzramendra-mgmt-templates/.github/workflows/cd-template.yaml@main
+    uses: ALZ-Ramendra/alzramendra-mgmt-templates/.github/workflows/cd-template.yaml@test/pr164-dns-delegation
     name: 'CD'
     permissions:
       id-token: write
@@ -76,4 +76,5 @@ jobs:
       governance-platform-connectivity-rbac: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-rbac == true }}
       governance-landingzones-rbac: ${{ github.event_name != 'workflow_dispatch' && true || inputs.governance-rbac == true }}
       core-logging: ${{ github.event_name != 'workflow_dispatch' && true || inputs.core == true }}
-      networking-hubnetworking: ${{ github.event_name != 'workflow_dispatch' && true || inputs.networking == true }}
+      networking-hubnetworking: false
+      networking-virtualwan: ${{ github.event_name != 'workflow_dispatch' && true || inputs.networking == true }}
